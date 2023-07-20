@@ -1,0 +1,11 @@
+modal in javascript which module are working 
+./ is mean that cuurent directory
+"http" ,"crypto" is mean that only searching for server
+require is import to file
+modules.exports={add,sum}//first step
+exports.sum=(a,b)=>a+b;
+import to file basically use require
+const data =require('./filename');
+console.log(data.sum(10,20);
+const {sum,add} =require('./filename');
+console.log(sum(10,20))
